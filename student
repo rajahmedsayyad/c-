@@ -1,0 +1,20 @@
+using System;
+namespace aaa
+{
+class hi
+{
+public static void Main(string []a)
+{
+double percentage;
+string name;
+int roll_no;
+System.Console.WriteLine("Enter name");
+name=Console.ReadLine();
+System.Console.WriteLine("Enter roll_no");
+roll_no=int.Parse(Console.ReadLine());
+System.Console.WriteLine("Enter your Percentage");
+percentage=double.Parse(Console.ReadLine());
+System.Console.WriteLine("Name:"+name+"Roll no:"+roll_no+"Percentage:"+percentage);
+}
+}
+}
