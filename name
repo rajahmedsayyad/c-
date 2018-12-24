@@ -1,0 +1,12 @@
+namespace aaa
+{
+class bbb
+{
+public static void Main(string []a)
+{
+System.Console.WriteLine("Enter name ,roll no.");
+System.Console.WriteLine("Your name is"+a[0]);
+System.Console.WriteLine("Your roll no is"+a[1]);
+}
+}
+}
